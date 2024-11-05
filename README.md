@@ -1,7 +1,3 @@
-Here's a more streamlined and polished version of your README with a clearer structure and formatting improvements:
-
----
-
 # **Aerion-QQ-BOT-IMAGE-V2**
 
 This project demonstrates the use of a QQ bot that sends images, including several available functions for flight simulation.
