@@ -74,7 +74,7 @@ You can customize the bot to implement the specific features you need. Modify th
 
 ## **Credits**
 
-Made by **Flyunion Ariven**  
+Made by **Aerion/Flyunion Ariven**  
 Open-source project based on AGPL 3.0 License
 
 ---
