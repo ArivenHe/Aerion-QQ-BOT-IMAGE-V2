@@ -34,7 +34,7 @@ export default {
     async getData() {
       try {
         const loading = ElLoading.service({ text: '加载中...', background: 'rgba(255, 255, 255, 1)' ,});
-        const res = await axios.post('https://server.flyunion.cn/GetAtis.php', {
+        const res = await axios.post('YOUR_URL', {
           'token': 'ab321818',
           'icao': this.id
         });
