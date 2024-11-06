@@ -21,13 +21,13 @@ export default {
   },
   methods: {
     createMap() {
-      mapboxgl.accessToken = 'pk.eyJ1IjoiZ3VvYXI3c2J2ZCIsImEiOiJjbHAzeHNxNTgxM2VsMnJxeW8wMmw3YTVrIn0.sRsF6Vxg3yAZcM0mQTM_Ww';
+      mapboxgl.accessToken = 'YOUR_TOKEN';
 
       const routeCenter = this.getRouteCenter();
 
       this.map = new mapboxgl.Map({
         container: this.$refs.mapContainer,
-        style: 'mapbox://styles/guoar7sbvd/cm19cttzy02c401qual874y3q',
+        style: 'YOUR_URL',
         center: routeCenter,
         zoom: 3,
         useWebGL2: true
