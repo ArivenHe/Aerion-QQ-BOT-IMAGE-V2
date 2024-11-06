@@ -132,5 +132,5 @@ if __name__ == "__main__":
     intents = botpy.Intents(public_messages=True)
     client = MyClient(intents=intents)
     _log.info("正在启动机器人...")
-    _log.info("Made by Flyuion Ariven, GPL 3.0 - Opened.")
+    _log.info("Made by Flyuion Ariven, AGPL 3.0 - Opened.")
     client.run(appid=test_config["appid"], secret=test_config["secret"])
