@@ -21,7 +21,7 @@ export default {
       routeData: null,
       depInfo: null,
       appInfo: null,
-      loadingInstance: null, // Store the loading instance
+      loadingInstance: null,
     };
   },
   watch: {
@@ -51,7 +51,7 @@ export default {
       });
 
       try {
-        const res = await axios.get(`https://api.route.xliaobk.cn/route?dep=${this.depIcao}&arr=${this.appIcao}&dct=2`);
+        const res = await axios.get(YOUR_URL);
 
         if (res.data.status === 200) {
           this.routeData = res.data;
